@@ -303,7 +303,7 @@ function ProductList({ onHomeClick }) {
                                     <div className='product-title'>{plant.name}</div>
                                     <div>{plant.cost}</div>
                                     <button className='product-button' onClick={() => handleAddToCart(plant)} >
-                                        {/* Need to grey it out when its added to cart */}
+                                        {/* Todo: Need to grey it out when its added to cart */}
                                         Add to Cart
                                     </button>
                                 </div>
